@@ -2,17 +2,17 @@ import React from "react";
 import food from "../assets/FoodApp.png";
 import wheather from "../assets/WeatherApp.png";
 import segura from "../assets/segura.png";
-import conoce from "../assets/conoce.png"
+import conoce from "../assets/conoce.png";
 import { FormattedMessage } from "react-intl";
 
 function Proyectos() {
   return (
     <div
-    name="proyectos"
+      name="proyectos"
       className="w-full md:h-screen text-center sm:text-left text-gray-300 bg-[#0a192f] pt-20 sm:pt-1"
     >
-      <div  className="max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div  className="pb-8">
+      <div className="max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
           <p className="text-2xl sm:text-4xl font-bold inline border-b-4 border-[#E4AD59]">
             <FormattedMessage id="work.title" defaultMessage={""} />
           </p>
@@ -122,12 +122,20 @@ function Proyectos() {
                 Weather-App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://agusmcuello-weatherapp.netlify.app/">
+                <a
+                  href="https://agusmcuello-weatherapp.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/agusmcuello/Weather-app.git">
+                <a
+                  href="https://github.com/agusmcuello/Weather-app.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
                     Código
                   </button>
