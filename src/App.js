@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from "react";
+import Contacto from "./components/Contacto";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import Proyectos from "./components/Proyectos";
+import SobreMi from "./components/SobreMi";
+import Tecnologias from "./components/Tecnologias";
+import { langContext } from "./context/langContext";
+import { IntlProvider } from "react-intl";
 
 function App() {
+  const ctx = useContext(langContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Home />
+      <SobreMi />
+      <Tecnologias />
+      <Proyectos />
+      <Contacto />
     </div>
   );
 }
