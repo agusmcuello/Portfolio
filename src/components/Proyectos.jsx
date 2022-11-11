@@ -2,6 +2,7 @@ import React from "react";
 import food from "../assets/FoodApp.png";
 import wheather from "../assets/WeatherApp.png";
 import segura from "../assets/segura.png";
+import conoce from "../assets/conoce.png"
 import { FormattedMessage } from "react-intl";
 
 function Proyectos() {
@@ -53,16 +54,16 @@ function Proyectos() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${wheather})` }}
+            style={{ backgroundImage: `url(${conoce})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white traking-wider">
-                Weather-App
+                Conoce-Uruguay-App
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://agusmcuello-weatherapp.netlify.app/"
+                  href="https://conoce-uruguay.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -71,7 +72,7 @@ function Proyectos() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/agusmcuello/Weather-app.git"
+                  href="https://github.com/agusmcuello/Uruguay-Turismo-app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -121,12 +122,12 @@ function Proyectos() {
                 Weather-App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://agusmcuello-weatherapp.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/agusmcuello/Weather-app.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
                     Código
                   </button>

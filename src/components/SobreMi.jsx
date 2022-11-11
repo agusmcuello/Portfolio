@@ -14,7 +14,7 @@ function SobreMi() {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-center font-bold">
-            <p className="sm:text-5xl">
+            <p className="sm:text-4xl">
             <FormattedMessage id="about.hi" defaultMessage={"Hi!"}/><br/>
             <FormattedMessage id="about.sub" defaultMessage={"About me"}/>
             </p>

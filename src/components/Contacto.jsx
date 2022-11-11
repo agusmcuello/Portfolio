@@ -5,7 +5,7 @@ function Contacto() {
   return (
     <div
       name="contacto"
-      className="w-full h-full bg-[#0a192f] flex justify-center items-center p-4 pt-20 sm:pt-10"
+      className="w-full h-full bg-[#0a192f] flex justify-center text-center sm:text-left items-center p-4 pt-20 sm:pt-10"
     >
       <form
         action="https://getform.io/f/cbf4156a-3cde-4ab2-bf80-5a2667edb207"
