@@ -20,7 +20,7 @@ function Tecnologias() {
             <FormattedMessage id="tec.title" defaultMessage={""}/>
           </p>
           <p className="py-4 text-[14px] sm:text-lg">
-            <span>//</span><FormattedMessage id="tec.sub" defaultMessage={""}/>
+            <span className="text-[#E4AD59]">//</span><FormattedMessage id="tec.sub" defaultMessage={""}/>
           </p>
         </div>
         <h2>Frontend</h2>

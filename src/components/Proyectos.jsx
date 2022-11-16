@@ -4,6 +4,7 @@ import wheather from "../assets/WeatherApp.png";
 import segura from "../assets/segura.png";
 import conoce from "../assets/conoce.png";
 import { FormattedMessage } from "react-intl";
+import bombita from "../assets/bombita.png";
 
 function Proyectos() {
   return (
@@ -11,13 +12,14 @@ function Proyectos() {
       name="proyectos"
       className="w-full md:h-screen text-center sm:text-left text-gray-300 bg-[#0a192f] pt-20 sm:pt-1"
     >
+      <img src={bombita} alt="bombita" className=" absolute w-[110px] mt-32 right-32 h-[130px] hover:scale-110 hover:duration-500" />
       <div className="max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-2xl sm:text-4xl font-bold inline border-b-4 border-[#E4AD59]">
             <FormattedMessage id="work.title" defaultMessage={""} />
           </p>
           <p className="py-6">
-            <span>//</span>
+            <span className="text-[#E4AD59]">//</span>
             <FormattedMessage id="work.sub" defaultMessage={""} />
           </p>
         </div>
@@ -47,7 +49,7 @@ function Proyectos() {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
-                    Código
+                    <FormattedMessage id="tec.button" defaultMessage={""}/>
                   </button>
                 </a>
               </div>
@@ -77,7 +79,7 @@ function Proyectos() {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
-                    Código
+                  <FormattedMessage id="tec.button" defaultMessage={""}/>
                   </button>
                 </a>
               </div>
@@ -107,7 +109,7 @@ function Proyectos() {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
-                    Código
+                  <FormattedMessage id="tec.button" defaultMessage={""}/>
                   </button>
                 </a>
               </div>
@@ -137,7 +139,7 @@ function Proyectos() {
                   rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg">
-                    Código
+                  <FormattedMessage id="tec.button" defaultMessage={""}/>
                   </button>
                 </a>
               </div>
