@@ -1,6 +1,6 @@
 import React from "react";
 import food from "../assets/FoodApp.png";
-import wheather from "../assets/WeatherApp.png";
+import netflix from "../assets/netflix.png";
 import segura from "../assets/segura.png";
 import conoce from "../assets/conoce.png";
 import { FormattedMessage } from "react-intl";
@@ -12,7 +12,7 @@ function Proyectos() {
       name="proyectos"
       className="w-full md:h-screen text-center sm:text-left text-gray-300 bg-[#0a192f] pt-20 sm:pt-1"
     >
-      <img src={bombita} alt="bombita" className=" absolute w-[110px] mt-32 right-32 h-[130px] hover:scale-110 hover:duration-500" />
+      <img src={bombita} alt="bombita" className=" hidden sm:block absolute w-[110px] mt-32 right-32 h-[130px] hover:scale-110 hover:duration-500" />
       <div className="max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-2xl sm:text-4xl font-bold inline border-b-4 border-[#E4AD59]">
@@ -116,16 +116,16 @@ function Proyectos() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${wheather})` }}
+            style={{ backgroundImage: `url(${netflix})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white traking-wider">
-                Weather-App
+                Netflix-app
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://agusmcuello-weatherapp.netlify.app/"
+                  href="https://netflix-app-33640.web.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -134,7 +134,7 @@ function Proyectos() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/agusmcuello/Weather-app.git"
+                  href="https://https://github.com/agusmcuello/netflix-app"
                   target="_blank"
                   rel="noreferrer"
                 >

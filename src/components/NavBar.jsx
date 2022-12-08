@@ -108,7 +108,7 @@ function NavBar() {
         </li>
       </ul>
 
-      <div className=" lg:flex fixed flex-col top-[75%] sm:top-[35%] left-0">
+      <div className=" hidden sm:block lg:flex fixed flex-col top-[75%] sm:top-[35%] left-0">
         <ul>
           <li className="w-[150px] h-[35px] sm:w-[160px] sm:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a

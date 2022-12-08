@@ -14,7 +14,7 @@ function Contacto() {
         method="POST"
         className="flex flex-col max-w-[600px] w-full"
       >
-        <img src={celu} alt="email" className=" absolute right-[180px] hover:scale-110 hover:duration-500 mt-17 rotate-12 w-[100px] h-[150px]" />
+        <img src={celu} alt="email" className=" hidden sm:block absolute right-[180px] hover:scale-110 hover:duration-500 mt-17 rotate-12 w-[100px] h-[150px]" />
         <div className="pb-8">
           <p className="text-gray-300 text-2xl sm:text-4xl font-bold inline border-b-4 border-[#E4AD59]">
             <FormattedMessage id="contact.title" defaultMessage={""} />
@@ -46,7 +46,7 @@ function Contacto() {
           <FormattedMessage id="form.button" defaultMessage={""}/>
         </button>
       </form>
-<img src={email} alt="email" className=" absolute left-32 hover:scale-110 hover:duration-500 mt-20 -rotate-12 w-[150px] h-[100px]" />
+<img src={email} alt="email" className=" hidden sm:block absolute left-32 hover:scale-110 hover:duration-500 mt-20 -rotate-12 w-[150px] h-[100px]" />
     </div>
   );
 }

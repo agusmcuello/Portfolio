@@ -1,3 +1,10 @@
+@mixin mv {
+  @media screen and (max-width: 480px){
+    @content
+  }
+}
+
+
 .home-page {
   .text-zone {
     display: flex;
@@ -34,6 +41,10 @@
   right: 12%;
   bottom: 10%;
   animation: brillo 3s ease;
+  @include mv{
+   width: 150px;
+   height: 150px; 
+  }
 }
 @keyframes brillo{
   0%{ opacity: 0;
